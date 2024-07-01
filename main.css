@@ -197,7 +197,7 @@ color: var(--header-color);
 margin: auto;
 font-size: 2rem;
 text-align: center;
-width: 470px;
+width: 100%;
 }
 .method h1{
 width: 470px;

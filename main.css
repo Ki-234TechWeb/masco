@@ -152,21 +152,23 @@ justify-content: center;
 }
 
 .banner-text{
-
-width: 400px;
+padding: 0 30px;
+max-width: 400px;
 margin: auto;
 }
 .banner-text h1{
 color: #0A102F;
 font-size: 2.4rem;
 text-align: center;
+    width: 100%;
+margin: auto;
 }
 
 .banner-text p{
 line-height: 1.8;
 color:#949191;
 text-align: center;
-    width:340px;
+    width:100%;
     margin:auto;
 }
 .rating
@@ -192,7 +194,7 @@ background-color: var(--yellow);
 border: 2px solid #0A102F;
 font-weight: bold;
 font-size: 1rem;
-transform: translateX(35%);
+transform: translateX(2%);
 }
 
 .main-header{
@@ -312,7 +314,6 @@ color: #ffffff;
 
 .animated-text-wrapper{
     display: flex;
-    
     
     }
     
@@ -471,14 +472,9 @@ display: none;
 }
 .the-world-section{
     background-color: #FAF9F5;
-
+width: 100%;
 
 }
-
-
-
-
-
 .world-content{
 background-color: #FAF9F5;
 max-width:500px ;

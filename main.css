@@ -205,10 +205,13 @@ text-align: center;
 width: 100%;
 max-width: 450px;
 }
-.main{
-width: 470px;
-padding: 40px 30px;
-
+.special-header{
+width: 100%;
+    max-width: 500px;
+padding: 40px 0px;
+color: var(--header-color);
+margin: auto;
+    font-size: 1.95rem;
 }
 
 .method-content{

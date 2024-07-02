@@ -208,7 +208,7 @@ max-width: 450px;
 .method h1{
 width: 470px;
 padding: 40px 0;
-
+display: none;
 }
 
 .method-content{

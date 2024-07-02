@@ -148,16 +148,17 @@ right: -75px;
 display: flex;
 align-items: center;
 justify-content: center;
+    flex-wrap: wrap;
 }
 
 .banner-text{
 
-width: 450px;
+width: 400px;
 margin: auto;
 }
 .banner-text h1{
 color: #0A102F;
-font-size: 2.6rem;
+font-size: 2.4rem;
 text-align: center;
 }
 
@@ -165,6 +166,8 @@ text-align: center;
 line-height: 1.8;
 color:#949191;
 text-align: center;
+    width:340px;
+    margin:auto;
 }
 .rating
 {
@@ -197,7 +200,8 @@ color: var(--header-color);
 margin: auto;
 font-size: 1.9rem;
 text-align: center;
-width: 90%;
+width: 100%;
+max-width: 450px;
 }
 .method h1{
 width: 470px;
@@ -207,7 +211,7 @@ padding: 40px 0;
 
 .method-content{
 text-align: center;
-width: 400px;
+width: 350px;
 margin: auto;
 padding-bottom:40px;
 }
@@ -219,9 +223,10 @@ font-size: 1.6rem;
     }
     
     .method-content p{
-     font-size: 1.2rem;
+     font-size: 1.1rem;
      color: #949191;
      line-height: 1.4;
+         width: 90%;
     }     
 
 .training-section{
@@ -259,11 +264,15 @@ padding-top: 30px;
     line-height: 1.4;
     text-align: center;
     padding-bottom: 20px;
-width: 450px;
+width: 100%;
 margin: auto;
+max-width: 450px;
 
     }
-    
+ .training-text{
+padding: 0 20px;
+    }
+
 .training-text h1:nth-of-type(1){
 padding-bottom: 30px;
 
@@ -290,7 +299,7 @@ display: flex;
 align-items:baseline;
 justify-content: center;
 gap:0 10px;
-width: 480px;
+max-width: 480px;
 }
 
 
@@ -298,6 +307,7 @@ width: 480px;
 overflow: hidden;
 background-color: #0A102F;
 color: #ffffff;
+    width: 100%;
 }
 
 .animated-text-wrapper{
@@ -519,12 +529,13 @@ display: flex;
     .download-img1{
     display: flex;
     justify-content: center;
-    gap:20px  ;
+    gap:15px ;
         margin: 0 auto;
         padding: 30px ;
+        flex-wrap: wrap;
             } 
 .download-now{
-width: 460px;
+max-width: 450px;;
 margin: 0 auto;
 background-color: #FFC900;
 border-radius: 15px;
@@ -537,6 +548,12 @@ line-height: 1.8;
 margin: 0 auto;
 }
 
+.sub-header h1{
+    width: 100%;
+    max-width: 400px;
+    
+    margin: 0 auto;
+    }
 
 
     .download-img2 img:nth-child(1){
@@ -544,24 +561,25 @@ margin: 0 auto;
         position: relative;
         z-index: 1;
         padding-top: 20px;
+        left: 20px;
             }
             .download-img2 img:nth-child(2){
                 width: 180px;
                 position: relative;
-                right: 150px;
+                right: 130px;
         padding-top: 20px;
                     }
 
 
                     .foot-img{
-                        width: 460px;
+max-width: 460px;
                         margin: 0 auto;
                         margin-top: 50px;
                         margin-bottom: 50px;
                         }
 .foot-img2 p{
 line-height: 1.6;
-width: 400px;
+max-width: 400px;
 }
 .foot-link {
     color:inherit ;

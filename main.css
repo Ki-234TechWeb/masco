@@ -162,6 +162,7 @@ font-size: 2.4rem;
 text-align: center;
     width: 100%;
 margin: auto;
+    padding-top:40px;
 }
 
 .banner-text p{
@@ -204,6 +205,7 @@ font-size: 1.9rem;
 text-align: center;
 width: 100%;
 max-width: 450px;
+    padding-bottom: 20px;
 }
 .special-header{
 width: 100%;

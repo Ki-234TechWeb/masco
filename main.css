@@ -195,9 +195,16 @@ background-color: var(--yellow);
 border: 2px solid #0A102F;
 font-weight: bold;
 font-size: 1rem;
-transform: translateX(35%);
+
+}
+.btn{
+width:100%;
+    margin:auto;
+    text-align:center;
+
 }
 
+    
 .main-header{
 color: var(--header-color);
 margin: auto;

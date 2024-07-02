@@ -151,6 +151,8 @@ justify-content: center;
     flex-wrap: wrap;
 width: 50% !important;
      transform: translateX(50px);
+    margin:auto;
+    text-align:center;
 }
 
 .banner-text{

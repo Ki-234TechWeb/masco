@@ -591,10 +591,12 @@ max-width: 460px;
                         margin: 0 auto;
                         margin-top: 50px;
                         margin-bottom: 50px;
+                         padding:0 30px
                         }
 .foot-img2 p{
 line-height: 1.6;
-max-width: 400px;
+width: 100%;
+   
 }
 .foot-link {
     color:inherit ;
@@ -640,6 +642,7 @@ list-style: none;
 display: grid;
 grid-template-columns: auto auto;
 justify-content: space-between;
+     width: 100%;
  }           
   
 .copy-text{

@@ -150,7 +150,7 @@ align-items: center;
 justify-content: center;
     flex-wrap: wrap;
 width: 200px !important;
-     transform: translateX(50px);
+     transform: translateX(150px);
     margin:auto;
     text-align:center;
 }

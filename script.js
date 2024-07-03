@@ -1,6 +1,6 @@
 
 function openNav() {
-    document.getElementById("Menu").style.width = " 380px";
+    document.getElementById("Menu").style.width = " 340px";
     document.getElementById("Menu").style.marginRight = " 0";
 
 
@@ -8,7 +8,7 @@ function openNav() {
 
 function cancel () {
     document.getElementById("Menu").style.width = " 0";
-    document.getElementById("Menu").style.marginRight = " -50px";
+    document.getElementById("Menu").style.marginRight = " -40px";
 
 
 

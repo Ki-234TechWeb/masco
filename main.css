@@ -550,11 +550,13 @@ display: flex;
         flex-wrap: wrap;
             } 
 .download-now{
-max-width: 450px;;
+max-width: 450px;
+    width:100%
 margin: 0 auto;
 background-color: #FFC900;
 border-radius: 15px;
 margin-top: 50px;
+    padding:0 30px;
 }
 .sub-header p{
 text-align: center;

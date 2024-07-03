@@ -148,9 +148,9 @@ right: -75px;
 display: flex;
 align-items: center;
 justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wra;
 width: 200px !important;
-     transform: translateX(150px);
+     transform: translateX(150p);
     margin:auto;
     text-align:center;
 }

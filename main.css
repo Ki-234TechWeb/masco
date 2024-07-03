@@ -57,7 +57,7 @@ color: #ffffff;
 right: 0;
 margin-right: -50px;
 transition: 0.5s;
-overflow-x: hidde;
+
 
 
 }
@@ -177,6 +177,7 @@ text-align: center;
     margin:auto;
     font-size: 1rem;
 max-width: 450px
+    padding:30px 0;
 }
 .rating
 {

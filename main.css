@@ -549,14 +549,21 @@ display: flex;
         padding: 30px ;
         flex-wrap: wrap;
             } 
-.download-now{
+.get-masco{
 max-width: 450px;
+       padding:0 30px;
+}
+
+
+
+.download-now{
+
     width:100%
 margin: 0 auto;
 background-color: #FFC900;
 border-radius: 15px;
 margin-top: 50px;
-    padding:0 30px;
+ 
 }
 .sub-header p{
 text-align: center;
